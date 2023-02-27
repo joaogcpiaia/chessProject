@@ -1,11 +1,12 @@
 package application;
 
+import boardGame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
-	System.out.println("inicio");
-	System.out.println("fsdds");
-
+		Position position = new Position(3,5);
+		System.out.println(position);
 	}
 
 }
